@@ -1,7 +1,7 @@
-----Thanks for xen0n, who are contributing to the working CyanogenMod of MTK hardware.---
+----Thanks to all who are contributing to the working CyanogenMod of MTK hardware.---
 # CyanogenMod 13.0
 
-This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered by ferhung.
+This is a device tree for Micromax Canvas Nitro A311 which is based on MT6592 SoC. Powered by Tirth Patel.
 # Build
 
 * init
@@ -14,7 +14,7 @@ This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered b
         
         # source build/envsetup.sh
 
-        # brunch cm_g750t01-userdebug
+        # brunch cm_A311-userdebug
 
 # Limitations
 
@@ -26,8 +26,3 @@ Services requires root:
 
   * mediaserver depends on /data/nvram folder access, unable to do voice calls from 'media' user (default user 'media')
 
-# In China, we must skip to get 204 from Google server.
-  * Change of Android 5.1 source to skip network validation in some environment like China can't connect to http://clients3.google.com/generate_204. 
-
-  To see: 
-    [Skip_network_validation](http://github.com/ferhung/Skip_network_validation)
